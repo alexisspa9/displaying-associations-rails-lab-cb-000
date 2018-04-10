@@ -3,6 +3,7 @@ class ArtistsController < ApplicationController
   end
 
   def show
+    @artists = Artist.all
   end
 
   def new
